@@ -1,0 +1,10 @@
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe.config
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.pdb
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csprojAssemblyReference.cache
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Properties.Resources.resources
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.GenerateResource.cache
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.CoreCompileInputs.cache
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Form1.resources
