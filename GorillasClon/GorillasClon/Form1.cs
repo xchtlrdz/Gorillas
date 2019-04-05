@@ -30,6 +30,7 @@ namespace GorillasClon
 
             Edificio ed = new Edificio(0,0);
             ed.coordx += ed.weight;
+            pictureBox1.Image = ed.imgDir;
         }
     }
 }
