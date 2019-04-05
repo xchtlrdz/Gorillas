@@ -11,13 +11,16 @@ namespace GorillasClon
     {
 
         private float height; //altura del edificio
-        private float weight; //ancho del edificio
-        private float x;
-        private Bitmap imgDir = new Bitmap(@".\Assets\Torre.png");
+        public float weight; //ancho del edificio
+        public float coordx;
+        public float coordy;
+        public Bitmap imgDir = new Bitmap(@".\Assets\Torre.png");
 
         //necesitamos esta posicion para saber donde empezara nuestro edificio para no abarcar mas espacio del que deberia. Ademas, se calculara la del proximo con ayuda del ancho de este.
-        public Edificio(float x)
+        public Edificio(float x,float y)
         {
+            coordx = x;
+            coordy = y;
             generarEdificio();
         }
 

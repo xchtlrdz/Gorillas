@@ -8,3 +8,14 @@ C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\Gorillas
 C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
 C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb
 C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Form1.resources
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe.config
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.pdb
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csprojAssemblyReference.cache
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Form1.resources
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.NombrePersonaje.resources
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Properties.Resources.resources
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.GenerateResource.cache
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.CoreCompileInputs.cache
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
+C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb
