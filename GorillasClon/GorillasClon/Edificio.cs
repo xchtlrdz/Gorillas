@@ -15,6 +15,7 @@ namespace GorillasClon
         public float coordx;
         public float coordy;
         public Bitmap imgDir = new Bitmap(@".\Assets\Torre.png");
+        
 
         //necesitamos esta posicion para saber donde empezara nuestro edificio para no abarcar mas espacio del que deberia. Ademas, se calculara la del proximo con ayuda del ancho de este.
         public Edificio(float x,float y)
@@ -29,9 +30,9 @@ namespace GorillasClon
         {
             Random rand = new Random();
             weight = (float)rand.NextDouble();
-            weight = 45 + (weight * (60 - 45));
+            weight = 5 + (weight * (30 - 5));
             height = (float)rand.NextDouble();
-            height = 25 + (height * (120 - 25));
+            height = 5 + (height * (20 - 5));
         }
     }
 }

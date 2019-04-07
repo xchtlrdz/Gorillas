@@ -14,6 +14,7 @@ namespace GorillasClon
     {
         public Personaje per1;
         public Personaje per2;
+        public Bitmap imgDir = new Bitmap(@".\Assets\Escenario.png");
 
         public Form1(Personaje p1, Personaje p2)
         {
@@ -28,8 +29,9 @@ namespace GorillasClon
             label3.Text = per1.ID;
             label4.Text = per2.ID;
 
-            Edificio ed = new Edificio(0,0);
+            Edificio ed = new Edificio(0,-50);
             ed.coordx += ed.weight;
+            pictureBox1.BackgroundImage = imgDir;
             pictureBox1.Image = ed.imgDir;
         }
     }
