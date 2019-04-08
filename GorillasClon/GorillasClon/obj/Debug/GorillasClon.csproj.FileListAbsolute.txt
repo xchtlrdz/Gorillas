@@ -19,3 +19,14 @@ C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClo
 C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.CoreCompileInputs.cache
 C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
 C:\Users\Carmen\Desktop\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Form1.resources
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.NombrePersonaje.resources
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.Properties.Resources.resources
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.GenerateResource.Cache
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csproj.CoreCompileInputs.cache
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.csprojResolveAssemblyReference.cache
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe.config
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.exe
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.pdb
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
+C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb

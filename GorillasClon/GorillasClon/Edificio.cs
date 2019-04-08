@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace GorillasClon
@@ -10,8 +11,8 @@ namespace GorillasClon
     public class Edificio
     {
 
-        private float height; //altura del edificio
-        public float weight; //ancho del edificio
+        public float height; //altura del edificio
+        public float width; //ancho del edificio
         public float coordx;
         public float coordy;
         public Bitmap imgDir = new Bitmap(@".\Assets\Torre.png");
@@ -28,11 +29,13 @@ namespace GorillasClon
         //En este metodo debemos de implementar un algoritmo para la generacion de dimensiones al azar para el edificio
         public void generarEdificio()
         {
+            Thread.Sleep(50);
             Random rand = new Random();
-            weight = (float)rand.NextDouble();
-            weight = 5 + (weight * (30 - 5));
+            width = (float)rand.NextDouble();
+            width = 95 + (width * (180 - 95));
             height = (float)rand.NextDouble();
-            height = 5 + (height * (20 - 5));
+            height = 95 + (height * (200 - 95));
+            imgDir = new Bitmap(imgDir, (int)width, (int)height);
         }
     }
 }
