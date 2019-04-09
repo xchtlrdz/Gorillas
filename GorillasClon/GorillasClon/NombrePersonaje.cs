@@ -28,8 +28,8 @@ namespace GorillasClon
             String nomPersona1 = textBox1.Text;
             String nomPersona2 = textBox2.Text;
 
-            Personaje p = new Personaje(nomPersona1);
-            Personaje p2 = new Personaje(nomPersona2);
+            Personaje p = new Personaje(nomPersona1,20,262);
+            Personaje p2 = new Personaje(nomPersona2,500,262);
             this.Hide();
 
             Form1 juego = new Form1(p,p2);

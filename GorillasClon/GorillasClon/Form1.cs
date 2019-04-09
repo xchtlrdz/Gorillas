@@ -18,7 +18,7 @@ namespace GorillasClon
         public Bitmap imgDir = new Bitmap(@".\Assets\Escenario.png");
         private float xAct = 0;
         List<Edificio> ed = new List<Edificio>();
-        private bool sentido = true;
+        private bool sentido = false;
         Proyectil pr;
         List<double> animacion = new List<double>();
 
@@ -35,11 +35,15 @@ namespace GorillasClon
             label3.Text = per1.ID;
             label4.Text = per2.ID;
 
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 8; i++)
             {
                 ed.Add(new Edificio(xAct, 562));
                 xAct += ed.Last<Edificio>().width;
             }
+            per1.x = ed[0].coordx;
+            per1.y = ed[0].coordy - ed[0].height-per1.height+12;
+            per2.x = ed[4].coordx;
+            per2.y = ed[4].coordy - ed[4].height-per2.height+12;
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -49,6 +53,8 @@ namespace GorillasClon
             {
                 e.Graphics.DrawImage(ed[i].imgDir, ed[i].coordx, (ed[i].coordy - ed[i].height));
             }
+            e.Graphics.DrawImage(per1.imgDir,per1.x,per1.y);
+            e.Graphics.DrawImage(per2.imgDir, per2.x, per2.y);
             if (animacion.Count != 0)
             {
                 e.Graphics.DrawImage(pr.imgDir, (float)animacion[0], (float)animacion[1]);
@@ -63,14 +69,16 @@ namespace GorillasClon
             if (sentido)
             {
                 pr = new Proyectil(per1.x, per1.y);
+                sentido = false;
             }
             else
             {
                 pr = new Proyectil(per2.x, per2.y);
+                sentido = true;
             }
             try
             {
-                animacion = pr.calcularTrayectoria(Int32.Parse(textBox1.Text), Int32.Parse(textBox2.Text), sentido);
+                animacion = pr.calcularTrayectoria(Int32.Parse(textBox1.Text), Int32.Parse(textBox2.Text), !sentido);
             }
             catch(Exception ex)
             {

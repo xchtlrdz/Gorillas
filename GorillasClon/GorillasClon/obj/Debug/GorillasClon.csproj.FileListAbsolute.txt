@@ -30,3 +30,4 @@ C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\bin\Debug\
 C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\bin\Debug\GorillasClon.pdb
 C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.exe
 C:\Users\a_k_n\Documents\Programas\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.pdb
+C:\Users\Alumnos\Documents\Gorillas\GorillasClon\GorillasClon\obj\Debug\GorillasClon.NombrePersonaje.resources
