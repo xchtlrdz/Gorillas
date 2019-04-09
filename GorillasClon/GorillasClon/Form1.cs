@@ -41,9 +41,10 @@ namespace GorillasClon
                 xAct += ed.Last<Edificio>().width;
             }
             per1.x = ed[0].coordx;
-            per1.y = ed[0].coordy - ed[0].height-per1.height+12;
+            per1.y = ed[0].coordy - ed[0].height - per1.height + 12;
             per2.x = ed[4].coordx;
-            per2.y = ed[4].coordy - ed[4].height-per2.height+12;
+            per2.y = ed[4].coordy - ed[4].height - per2.height + 12;
+            per2.imgDir.RotateFlip(RotateFlipType.Rotate180FlipY);
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -53,14 +54,35 @@ namespace GorillasClon
             {
                 e.Graphics.DrawImage(ed[i].imgDir, ed[i].coordx, (ed[i].coordy - ed[i].height));
             }
-            e.Graphics.DrawImage(per1.imgDir,per1.x,per1.y);
+            e.Graphics.DrawImage(per1.imgDir, per1.x, per1.y);
             e.Graphics.DrawImage(per2.imgDir, per2.x, per2.y);
             if (animacion.Count != 0)
             {
                 e.Graphics.DrawImage(pr.imgDir, (float)animacion[0], (float)animacion[1]);
+                checarColision((float)animacion[0], (float)animacion[1]);
                 animacion.RemoveRange(0, 2);
                 Thread.Sleep(50);
                 pictureBox1.Invalidate();
+            }
+        }
+
+        private void checarColision(float x, float y)
+        {
+            if (sentido)
+            {
+                if ((x > per1.x && x < per1.x + per1.width) && (y > per1.y && y<per1.y+per1.height))
+                {
+                    MessageBox.Show("Gana el 2");
+                    this.Dispose();
+                }
+            }
+            else
+            {
+                if ((x > per2.x && x < per2.x + per2.width) && (y > per2.y && y < per2.y + per2.height))
+                {
+                    MessageBox.Show("Gana el 1");
+                    this.Dispose();
+                }
             }
         }
 
@@ -80,7 +102,7 @@ namespace GorillasClon
             {
                 animacion = pr.calcularTrayectoria(Int32.Parse(textBox1.Text), Int32.Parse(textBox2.Text), !sentido);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
